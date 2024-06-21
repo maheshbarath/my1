@@ -1,8 +1,6 @@
 # Use an official Ubuntu as a parent image
 FROM ubuntu:latest
 
-# Set the maintainer label
-LABEL maintainer="your_email@example.com"
 
 # Update the package repository
 RUN apt-get update
