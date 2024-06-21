@@ -3,10 +3,10 @@ FROM ubuntu:latest
 
 
 # Update the package repository
-RUN apt-get update
+RUN sudo apt-get update
 
 # Install necessary packages
-RUN apt-get install -y curl
+RUN sudo apt-get install -y curl
 
 # Set the working directory
 WORKDIR /app
